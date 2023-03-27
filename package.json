@@ -1,0 +1,33 @@
+{
+  "name": "node-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yana16/Node-Homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yana16/Node-Homework/issues"
+  },
+  "homepage": "https://github.com/Yana16/Node-Homework#readme",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "commander": "^10.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nanoid": "^3.3.6",
+    "yargs": "^17.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
